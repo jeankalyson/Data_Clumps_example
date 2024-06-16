@@ -18,7 +18,7 @@ def send_invoice(name, address, city, state, zipcode):
 
 # Chamadas de função
 process_payment("John Doe", "123 Elm St", "Springfield", "IL", "62701", "1234567812345678", "12/25", "123")
-send_invoice("John Doe", "123 Elm St", "Springfield", "IL", "62701")
+send_invoice("John Doe", "123 Elm St", "Springfield", "IL", "62701")```
 
 A refatoração envolve encapsular as variáveis recorrentes em classes, resultando em um código mais organizado e legível. Aqui, as informações do cliente são encapsuladas na classe Customer, e os dados do cartão de crédito na classe CreditCard:
 
